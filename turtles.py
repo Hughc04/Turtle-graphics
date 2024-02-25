@@ -35,8 +35,17 @@ turtle.color('red', 'blue')
 
 turtle.begin_fill()
 
-def drawsquare
+def drawsquare(size):
+    turtle.forward(size)
+    turtle.left(90)
+    turtle.forward(size)
+    turtle.left(90)
+    turtle.forward(size)
+    turtle.left(90)
+    turtle.forward(size)
+    turtle.left(90)
 
+drawsquare(200)
 
 turtle.end_fill()
 
